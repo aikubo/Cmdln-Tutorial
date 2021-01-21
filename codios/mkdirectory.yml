@@ -1,0 +1,14 @@
+speed: 10
+lines:
+- prompt: user@computer $
+  in: mkdir cmdln_tutorial 
+- prompt: user@computer $  
+  in: ls
+- out: 'Pictures Documents Downloads cmdln_tutorial'
+  bold: True 
+- prompt: user@computer $ 
+  in: cd cmdln_tutorial 
+- prompt: user@computer $ 
+  in: ls 
+- out: '                                       '
+- prompt: user@computer $

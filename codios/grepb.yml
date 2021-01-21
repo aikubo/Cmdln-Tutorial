@@ -1,0 +1,18 @@
+speed: 10
+lines:
+- prompt: user@computer $ 
+  in: ls *txt
+- out: 'food.txt cooking.txt recipes.txt'
+- prompt: user@computer $
+  in: grep "blueberry" *txt
+- prompt: user@computer $
+  in: grep -i "blueberry" *txt
+- out: 'food.txt:BLUEBERRY'
+  color: green
+  bold: True
+- prompt: user@computer $
+  in: grep -ni "blueberry" *txt
+- out: 'food.txt:2:BLUEBERRY'
+  color: green
+  bold: True
+

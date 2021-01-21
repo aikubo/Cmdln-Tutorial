@@ -1,0 +1,28 @@
+speed: 3 
+lines:
+- prompt: user@computer $
+  in: pwd
+- out: /home/user   
+- prompt: user@computer $ 
+  in: cd Pictures
+- prompt: user@computer $
+  in: pwd
+- out: /home/user/Pictures
+- prompt: user@computer $ 
+  in: cd ../
+- prompt: user@computer $
+  in: pwd
+- out: /home/user
+- prompt: user@computer $
+  in: cd ../../
+- prompt: user@computer $
+  in: pwd
+- out: /
+- prompt: user@computer $
+  in: ls
+- out: bin home media root sys usr boot etc tmp var
+  bold: True
+
+  
+   
+

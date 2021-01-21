@@ -1,0 +1,5 @@
+speed: 10
+lines:
+- prompt: $
+  in: nano foo.txt
+

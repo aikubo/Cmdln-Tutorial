@@ -1,0 +1,6 @@
+speed: 2 
+lines:
+- prompt: user@computer $
+  in: pwd
+- out: /home/user   
+

@@ -1,0 +1,20 @@
+Welcome to the Cave. To escape the cave you will need to learn several words of power. 
+
+	pwd 
+	cd 
+	ls
+	grep
+	mv 
+	cp 
+	mkdir 
+	
+If you need help you can always us the command "man pwd" and this will bring up the manual page for the pwd command. 
+
+To escape you will need to first run this command 
+ ./incantation.sh 
+
+Use the ls command to see the pages it produces which will bring up your spell book. If you have an issue with permissions try the command " sudo chmod 775 incantation.sh" which will fix the permissions. You will have to have the root password to complete this command. 
+Check "man chmod" to see what it does. 
+
+
+

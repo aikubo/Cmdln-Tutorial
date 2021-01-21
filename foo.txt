@@ -1,0 +1,8 @@
+nano is an easy to use and simple text editor
+
+To close this press Ctrl+x
+
+It will ask if you want to Save, 
+
+Press y to save then Enter to close.
+
