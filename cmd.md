@@ -25,13 +25,21 @@ You won't destroy your whole system with it (probably).
 ---
 <!-- fg=green bg=black -->
 ## Defining some Terms 
-**terminal, commandline, console** = text based interface 
+**terminal, commandline, console** = text based interface
+
 **directory** = hierarchical folder in a specific location
+
 **bash** = a program that is (one possible) basis of the commandline 
+
 **prompt** = where you enter commands 
+
 **command** = text based program you type in the prompt (such as *ls*) 
+
 **user**= yourself or others using the computer
+
 **super user, root** = administrator of computer, has accesss to all commands
+
+**path** = tells you the directory or files location. a file called pic.png in the directory Pictures has a path /Pictures/pic.png
 
 --- 
 ## Structure of the Tutorial 
@@ -45,7 +53,7 @@ You won't destroy your whole system with it (probably).
 
 Start up your terminal (Ctrl+T for some folks) 
 You will start in your **Home Directory**. 
-Type the command `pwd`. 
+Type the command `ls`. 
 
 ---
 <!-- fg=green bg=black -->
@@ -56,46 +64,8 @@ Type the command `pwd`.
 # Your First Command! 
 
 ---
-<!-- fg=green bg=black -->
-### Your Second Command
 
-`cd` Change Directory using the path.
-
-`cd Pictures`
-`cd \home\user\Pictures`
-
-When you are in the home directory type the directory name or use the full path. 
-It is the same as using a file explorer or folder application.
-
----
-<!-- fg=green bg=black -->
-### To go up 
-`cd ../` Goes up one folder
-`cd ../../` Goes up two folders
-
-### If you get lost 
-`cd` with no path takes you back home
-`cd ~` with the tilde takes you back home
-
----
-<!-- fg=green bg=black -->
-![codio](codios/dir.yml)
-
----
-<!-- fg=green bg=black -->
-
-# Try Exploring your computer
-
-### Use cd and pwd.  
-
-### Try using the command 
-`ls`
-### What does it do? 
-
----
-<!-- fg=green bg=black -->
-
-### Your Third Command(ment) 
+# ls
 
 `ls` LiSt. Lists the folders or files in the pwd. 
 
@@ -111,8 +81,63 @@ you can combine options like this
 
 ---
 <!-- fg=green bg=black -->
+### Your Second Command
+
+`cd` Change Directory using the path.
+
+`cd Pictures`
+`cd \home\user\Pictures`
+
+When you are in the home directory type the directory name or use the full path. 
+It is the same as using a file explorer or folder application.
+
+---
+
+
+---
+<!-- fg=green bg=black -->
 
 ![codio](codios/list.yml)
+
+<!-- fg=green bg=black -->
+### To go up 
+`cd ../` Goes up one folder
+`cd ../../` Goes up two folders
+
+### If you get lost 
+`cd` with no path takes you back home
+`cd ~` with the tilde takes you back home
+
+
+---
+<!-- fg=green bg=black -->
+
+# Try Exploring your computer
+
+### Use cd and ls.  
+
+### Try using the command 
+`pwd`
+### What does it do? 
+
+
+
+---
+<!-- fg=green bg=black -->
+![codio](codios/dir.yml)
+
+
+<!-- fg=green bg=black -->
+
+### Your Third Command
+
+## pwd 
+
+Present Working Directory 
+
+Where Am I ? 
+
+Prints the path of the directory you are currently in. 
 
 ---
 <!-- fg=green bg=black -->
