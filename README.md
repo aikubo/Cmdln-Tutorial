@@ -10,7 +10,7 @@ You can download this using the github website by clicking the upper right corne
 The presentation  with animations utilizes [Present](https://github.com/vinayak-mehta/present) and can be accessing by first installing *Present* then using the command 
 `present cmd.md` within the directory where cmd.md is located. 
 
-However a version of the presentation can also be found in cmd.ppx which is the powerpoint version without animations (Coming Soon!). 
+However a version of the presentation can also be read just by clicking the file  `cmd.md` above.
 
 ## Games
 This resposity also includes Command line Games to test your skills. 
