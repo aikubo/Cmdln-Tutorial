@@ -7,7 +7,7 @@ You can download this using the github website by clicking the upper right corne
 `git clone https://github.com/aikubo/Cmdln-Tutorial.git`
 
 ## Presentation
-The presentation  with animations utilizes *Present* [Install Here](https://github.com/vinayak-mehta/present) and can be accessing by first installing *Present* then using the command 
+The presentation  with animations utilizes [Present](https://github.com/vinayak-mehta/present) and can be accessing by first installing *Present* then using the command 
 `present cmd.md` within the directory where cmd.md is located. 
 
 However a version of the presentation can also be found in cmd.ppx which is the powerpoint version without animations. 
@@ -19,3 +19,5 @@ To play this game please open two terminal windows side-by-side in the SAME dire
 In the other you will have to use various commands to progress in the game. 
 
 If you wish to further test your skills, there is a second game called thief.sh you can run in the same way!
+
+Open two windows and in one of them run `./thief.sh `
