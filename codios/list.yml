@@ -1,0 +1,27 @@
+speed: 3 
+lines:
+- prompt: user@computer $
+  in: pwd
+- out: /home/user   
+- prompt: user@computer $ 
+  in: cd Pictures
+- prompt: user@computer $
+  in: ls
+- out: dogs.png cats.png crocs.png 
+- prompt: user@computer $ 
+  in: ls -l
+- out: ' total 3                                                    '
+- out: '-rw-r--r-- 1 owner group           213 Aug 26 16:31 dogs.png'
+- out: '-rw-r--r-- 1 owner group           400 Aug 28 06:01 cat.png '
+- out: '-rw-r--r-- 1 owner group           332 Aug 30 06:31 croc.png' 
+- prompt: user@computer $ ls 
+  in: ls -la 
+- out: ' total 5                                                    '
+- out: 'drw-r--r-- 1 owner group           213 Aug 26 16:31 .       '
+- out: 'drw-r--r-- 1 owner group           213 Aug 26 16:31 ..       '
+- out: '-rw-r--r-- 1 owner group           213 Aug 26 16:31 .hidden '
+- out: '-rw-r--r-- 1 owner group           213 Aug 26 16:31 dogs.png'
+- out: '-rw-r--r-- 1 owner group           213 Aug 26 16:31 cat.png '
+- out: '-rw-r--r-- 1 owner group           213 Aug 26 16:31 croc.png'
+  
+

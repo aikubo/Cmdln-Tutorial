@@ -26,7 +26,7 @@ You won't destroy your whole system with it (probably).
 <!-- fg=green bg=black -->
 ## Defining some Terms 
 **terminal, commandline, console** = text based interface 
-**directory** = folder in a specific location
+**directory** = hierarchical folder in a specific location
 **bash** = a program that is (one possible) basis of the commandline 
 **prompt** = where you enter commands 
 **command** = text based program you type in the prompt (such as *ls*) 
@@ -108,6 +108,11 @@ It is the same as using a file explorer or folder application.
 you can combine options like this 
 
 `ls -lh` long, human reable
+
+---
+<!-- fg=green bg=black -->
+
+![codio](codios/list.yml)
 
 ---
 <!-- fg=green bg=black -->
@@ -293,7 +298,6 @@ Add the option -i to make it case insensitive
 
 # Tutorial 
 
-Please download the tutorial from this website 
-
+Practice copying and pasting a command you've never seen before!
 
 
