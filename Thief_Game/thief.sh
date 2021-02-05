@@ -1,4 +1,6 @@
 #!/bin/bash 
+
+
 echo "  _          _   _       _____  _             ";
 echo " | |        | | ( )     |  __ \| |            ";
 sleep 0.5
@@ -56,7 +58,7 @@ NC='\033[0m' # No Color
 YEL='\033[0;33m'
 BOLD='\033[1m'
 
-echo "${YEL}                o--o--=g=--o--o       "
+echo "                o--o--=g=--o--o       "
 echo "               /      .'       \      "
 echo "               o      '.       o      "
 echo "                \             /       "
@@ -81,14 +83,14 @@ echo " Make a new directory called bag."
 while true; do
 read -n 1 -s -r -p " Press any key to continue."
 
-        if compgen -G "*bag*" > /dev/null; then
+if compgen -G "*bag*" > /dev/null; then
     echo " "
+    break
+else
     echo " Try again."
     echo " Use the command mkdir to make a new directoy"
- 
+
     continue
-else
-        break
 fi
 done
 
