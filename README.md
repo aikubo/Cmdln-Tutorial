@@ -10,14 +10,11 @@ You can download this using the github website by clicking the upper right corne
 The presentation  with animations utilizes [Present](https://github.com/vinayak-mehta/present) and can be accessing by first installing *Present* then using the command 
 `present cmd.md` within the directory where cmd.md is located. 
 
-However a version of the presentation can also be found in cmd.ppx which is the powerpoint version without animations. 
+However a version of the presentation can also be read just by clicking the file  `cmd.md` above.
 
-## Game
-This resposity also includes a Command line Game to test your skills. 
-To play this game please open two terminal windows side-by-side in the SAME directory. In one of them run the game using `./foo.sh` in the directory you downloaded. 
+## Games
+This resposity also includes Command line Games to test your skills. 
 
-In the other you will have to use various commands to progress in the game. 
+Change directory into your prefered game, as of 1/22/2020, either the Thief Game or Cave Game. 
 
-If you wish to further test your skills, there is a second game called thief.sh you can run in the same way!
-
-Open two windows and in one of them run `./thief.sh `
+To play this game please open two terminal windows side-by-side in the SAME directory. In one of them run the game either `./foo.sh` for the Cave game or `./thief.sh` for the Thief game. 
